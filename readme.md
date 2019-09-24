@@ -1,10 +1,18 @@
+<div align="center">
+	<img width="500" height="350" src="iot_awesome_logo.svg" alt="Awesome">
+  <br />
+</div>
+
 # Awesome Embedded and IoT Security [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated list of awesome resources about embedded and IoT security. The list contains software and hardware tools, books, research papers and more.
 
+Botnets like [Mirai](https://en.wikipedia.org/wiki/Mirai_(malware)) have proven that there is a need for more security in embedded and IoT devices. This list shall help beginners and experts to find helpful resources on the topic.  
 If you are a beginner, you should have a look at the [Books](#books) and [Case Studies](#case-studies) sections.  
 If you want to start right away with your own analysis, you should give the [Analysis Frameworks](#analysis-frameworks) a try.
 They are easy to use and you do not need to be an expert to get first meaningful results.
+
+> *Items marked with :euro: are comercial products.*
 
 ## Contents
 
@@ -16,8 +24,8 @@ They are easy to use and you do not need to be an expert to get first meaningful
 - [Hardware Tools](#hardware-tools)
 - [Books](#books)
 - [Research Papers](#research-papers)
-  - [Case Studies](#case-studies)
-- [Free Trainings](#free-trainings)
+- [Case Studies](#case-studies)
+- [Free Training](#free-training)
 - [Websites](#websites)
 - [Conferences](#conferences)
 
@@ -100,34 +108,37 @@ Software tools for analyzing embedded/IoT firmware.
 s](http://www.s3.eurecom.fr/docs/usenixsec14_costin.pdf)
 - 2013, Davidson et al: [FIE on Firmware: Finding Vulnerabilities in Embedded Systems using Symbolic Execution](https://www.usenix.org/system/files/conference/usenixsecurity13/sec13-paper_davidson.pdf)
 
-### Case Studies
+## Case Studies
 
+- [Binary Hardening in IoT products](https://cyber-itl.org/2019/08/26/iot-data-writeup.html)
 - [Hacking the DSP-W215, Again](http://www.devttys0.com/2014/05/hacking-the-dspw215-again/)
 - [Multiple vulnerabilities found in the D-link DWR-932B](https://pierrekim.github.io/blog/2016-09-28-dlink-dwr-932b-lte-routers-vulnerabilities.html)
 - [Pwning the Dlink 850L routers and abusing the MyDlink Cloud protocol](https://pierrekim.github.io/blog/2017-09-08-dlink-850l-mydlink-cloud-0days-vulnerabilities.html)
 - [PWN Xerox Printers (...again)](https://www.fkie.fraunhofer.de/content/dam/fkie/de/documents/xerox_phaser_6700_white_paper.pdf)
 
 
-## Free Trainings
+## Free Training
 
 - [Hardware Hacking 101](https://github.com/rdomanski/hardware_hacking/tree/master/my_talks/Hardware_Hacking_101) - Workshop @ BSides Munich 2019.
 - [IoTGoat](https://github.com/scriptingxss/IoTGoat) - IoTGoat is a deliberately insecure firmware based on OpenWrt.
 - [Rhme-2017/2018](https://github.com/Riscure/Rhme-2017) - Riscure Hack Me 3 embedded hardware CTF 2017-2018.
 - [Rhme-2016](https://github.com/Riscure/Rhme-2016) - Riscure Hack me 2 is a low level hardware CTF challenge.
 - [Rhme-2015](https://github.com/Riscure/RHme-2015) - First riscure Hack me hardware CTF challenge.
-- [Embedded Security CTF](https://microcorruption.com/login) - Microcorruption: Embedded Security CTF.
+- [Embedded Security CTF](https://microcorruption.com) - Microcorruption: Embedded Security CTF.
 
 
 ## Websites
 
-- [OWASP Embedded Application Security](https://www.owasp.org/index.php/OWASP_Embedded_Application_Security)
-- [OWASP Internet of Things Project](https://www.owasp.org/index.php/OWASP_Internet_of_Things_Project)
+- [OWASP Embedded Application Security Project](https://www.owasp.org/index.php/OWASP_Embedded_Application_Security) - Development best practices and list of hardware and software tools.
+- [OWASP Internet of Things Project](https://www.owasp.org/index.php/OWASP_Internet_of_Things_Project) - IoT common vulnerabilities and attack surfaces. 
 - [Hacking Printers Wiki](http://hacking-printers.net/wiki/index.php/Main_Page)
 - [Router Passwords](https://www.routerpasswords.com) - Default login credential database sorted by manufacturer.
 
 ## Conferences
+Conferences focused on embedded and/or IoT security.
 
-- [Hardwear.io](https://hardwear.io/)
+- [Hardwear.io](https://hardwear.io/) - The Hague, September.
+- [Hardwear.io USA](https://hardwear.io/) - Santa Clara, June. 
 
 ## Contribute
 
